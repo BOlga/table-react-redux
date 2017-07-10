@@ -1,0 +1,31 @@
+
+.table {
+    display:table;
+    border:1px solid #4800ff;
+    padding:2px;
+    border-collapse:collapse;
+}
+
+.header {
+    background-color:#0094ff;
+    display:table-row;
+}
+.row {
+    display:table-row;
+}
+
+.cell {
+    display:table-cell;
+    padding:5px 20px 5px 5px;
+    border-bottom:1px solid #808080;
+}
+
+.row:last-of-type  .cell{
+  border-bottom:none;
+}
+
+.header .cell {
+    border-bottom-color:#4800ff;
+    background-color:transparent;
+    color:#fff;
+}

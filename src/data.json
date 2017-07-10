@@ -1,0 +1,41 @@
+{ 
+    "columns":[
+	{
+        "header":"Наименование",
+        "col":"title",
+        "type":"string"
+    },
+    {
+        "header":"Количество",
+        "col":"count",
+        "type":"number"
+    }],
+    
+    "body": [   
+ {
+      "id": "id1",
+      "title": "Позиция 1",
+      "count": 1
+  },
+ {
+     "id": "id2",
+     "title": "Позиция 2",
+     "count": 5
+ },
+ {
+     "id": "id3",
+     "title": "Позиция 3",
+     "count": 6
+ } ,
+ {
+     "id": "id4",
+     "title": "Позиция 4",
+     "count": 0
+ }
+ ,
+ {
+     "id": "id5",
+     "title": "Позиция 5",
+     "count": 6
+ }]
+}
